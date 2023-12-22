@@ -1,0 +1,61 @@
+.logo-container {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 26px;
+   
+   background-color: rgb(41, 42, 41);
+    
+   color: azure;
+}
+
+.logo {
+    width: 10%; 
+    
+}
+
+.m {
+    display: flex;
+    width: 100%;
+    height: 500px;
+    background: url(/IMG/logo.jpeg);
+    align-items: center;
+    justify-content: center;
+
+}
+.text {
+    color: aliceblue;
+    font-size: 100px;  
+}
+.tek {
+   font-size: 25px;
+}
+.size {
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.photot {
+    width: 260px;
+    height: 180px;
+    margin-top: 30px    ;
+margin-left: 50px;
+display: flex;
+position: relative;
+left: 200px;
+
+}
+
+.photos_img {
+    display: flex;
+    border: solid;
+    flex-direction:row-reverse; */
+}
+
+.textpro {
+    border: solid;
+}
+
+.photoprograme {
+    width: 70%;
+    border: solid;
+}
