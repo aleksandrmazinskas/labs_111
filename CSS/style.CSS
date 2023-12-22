@@ -47,15 +47,14 @@ left: 200px;
 
 .photos_img {
     display: flex;
-    border: solid;
-    flex-direction:row-reverse; */
+    flex-direction:row-reverse;
+    margin-top: 25px;
 }
 
 .textpro {
-    border: solid;
+    
 }
 
 .photoprograme {
-    width: 70%;
-    border: solid;
+    width: 70% ;
 }
