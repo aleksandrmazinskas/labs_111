@@ -11,7 +11,14 @@
 
 .logo {
     width: 10%; 
-    
+
+}
+
+@media (max-width: 678px) {
+    .logo-container {
+       gap: 20px;
+        flex-direction: column;
+    }
 }
 
 .m {
@@ -20,13 +27,54 @@
     height: 500px;
     background: url(/IMG/logo.jpeg);
     align-items: center;
+    flex-direction: column;
     justify-content: center;
-
 }
+
+@media (max-width: 640px) {
+    .m {
+        flex-direction: column;
+    }
+
+    .photoprograme {
+        flex-direction: column;
+    }
+}
+
 .text {
     color: aliceblue;
     font-size: 100px;  
 }
+
+.textpro img {
+    display: flex;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+@media (max-width: 678px) {
+    .text {
+       font-size: 50px;
+        text-align: center;
+    }
+
+    .we {
+        text-align: center;
+    }
+
+    .size {
+        text-align: center;
+        padding: 10px;
+    }
+}
+
+@media (max-width: 390px) {
+    .textpro img{
+        max-width: 280px;
+    }
+
+}
+
 .tek {
    font-size: 25px;
 }
@@ -34,27 +82,4 @@
     margin-left: 30px;
     margin-top: 30px;
 }
-.photot {
-    width: 260px;
-    height: 180px;
-    margin-top: 30px    ;
-margin-left: 50px;
-display: flex;
-position: relative;
-left: 200px;
 
-}
-
-.photos_img {
-    display: flex;
-    flex-direction:row-reverse;
-    margin-top: 25px;
-}
-
-.textpro {
-    
-}
-
-.photoprograme {
-    width: 70% ;
-}
